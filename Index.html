@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+		body,
+		html {
+			height: 100%;
+		}
+
+		body {
+			background-image: url('background.jpg');
+
+			height: 100%;
+
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Snake JS</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin: 0;">
+	<div id="wrapper">
+		<span class="title">Snake Game</span>
+		<div class="info">
+			<ul>
+				<li>Score: <span id="score">0</span></li>
+				<li>Best Score: <span id="best-score">0</span></li>
+			</ul>
+            
+            <div id="game-over" style="display: none;" align="center">
+                <h2>Game Over!</h2>
+                <button onclick="restart()">Restart</button>
+            </div>
+		</div>
+		<canvas style="display: block;" id="canvas">Your browser is not supported canvas))</canvas>
+		<script src="snake.js"></script>
+	</div>
+    
+      
+</body>
+
+</html>
