@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	/* background-color: #4b4d4c; */
+	color: #fff;
+	overflow: hidden;
+}
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	max-width: 1440px;
+	height: 100%;
+	padding: 10px;
+	margin: 0 auto;
+}
+.title {
+	font-size: 70px;
+	margin-top: 20px;
+	font-family: arial;
+	font-weight: 700;
+	color: #0066ff;
+}
+.info {
+	max-width: 600px;
+	justify-self: flex-start;
+	font-family: arial;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.info ul {
+	margin-top: 10px;
+	display: -webkit-box;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+.info ul li {
+	list-style: none;
+}
+.info ul li:not(:last-child) {
+	margin-right: 20px;
+}
+.level {
+	font-size: 40px;
+	margin-top: 60px;
+	font-family: arial;
+	font-weight: 700;
+	list-style: none;
+	align-items: center;
+	margin-bottom: 20px;
+}
+canvas#canvas {
+	margin-top: 20px;
+	background-color: #051100;
+}
+
+
+.info {
+	margin-top: 20px;
+	font-size: 40px;
+}
+.info ul {
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+.info ul li:not(:last-child) {
+	margin: 0 30px 10px 0;
+}
+#changeDif {
+	font-size: 16px;
+}
+
+button {
+    border: 1px solid black;
+    background-color: yellow;
+    color: black;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+button:active {
+    background-color: green;
+}
