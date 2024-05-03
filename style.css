@@ -84,6 +84,8 @@ button {
     color: black;
     border-radius: 6px;
     font-size: 20px;
+    width: 80px;
+    height: 30px;
 }
 
 button:hover {
